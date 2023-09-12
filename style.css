@@ -1,0 +1,627 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #F2F2F2;
+    color:  #333333;
+}
+/* Home Page */
+
+.section1{
+    background-color: gray;
+    display: flex;
+    width: 100%;
+    height: 38px;
+    padding-top: 5px;
+}
+.section1 a{
+    color: #333333;
+    text-shadow: 0.7px 0.7px 0.7px black;
+    text-decoration: none;
+}
+.section1 a:hover{
+    color: cyan;
+}
+.section1 .image1{
+    padding-left: 10px;
+}
+.section1 .text1{
+    padding-left: 6px;
+}
+.section1 .text1 a{
+   text-decoration: none;
+
+}
+.section1 .text2{
+    padding-left: 6px;
+}
+.section1 .text2 a{
+    text-decoration: none;
+}
+.section1 .image2{
+    padding-left: 100px;
+}
+.section1 .text3{
+    padding-left: 590px;
+}.section1 .text4{
+    padding-left: 2px;
+}
+.main .nav-item .nav-link:hover{
+    color: cyan;
+}
+
+.heading1{
+    margin-top: 20px;
+    margin-left: 360px;
+    padding-top: 10px;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 8px 0 8px black;
+    height: 150px;
+    width: 600px;
+    text-align: center;
+}
+.all-category{
+    background-color:  lightblue;
+    width: 600px;
+    height: 100px;
+    color:  #00416A;
+    margin-top: 20px;
+    margin-left: 370px;
+    padding-top: 25px;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 8px 0 8px black;
+}
+.heading2{
+    margin-left: 380px;
+    margin-top: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+   
+}
+.heading3{
+    margin-left: 380px;
+    margin-top: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+   
+}
+.heading4{
+    margin-left: 400px;
+    margin-top: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+   
+}
+.heading5{
+    margin-left: 380px;
+    margin-top: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+   
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #00416A;
+    color: #FFFFFF;
+    width: 100%;
+    height: 250px;
+    margin-top: 120px;
+    padding-top: 40px;
+    padding-left: 250px;
+    font-size: 14px;
+}
+.footer-copyright{
+    display: flex; 
+    margin-top: 30px;
+    margin-left: 160px;
+ }
+ .word-divider {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.divider {
+    height: 1em;
+    width: 2px;
+    background-color: black; /* You can change the color as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+ /*
+.footer-copyright .part1{
+    border-right: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: -100px;
+    padding-right: 10px;
+    text-align: center; 
+}*/
+.footer-copyright .part2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer .col-sm a{
+    text-decoration: none;
+}
+.col-sm a{
+    color:  #FFFFFF;
+    text-decoration: none;
+
+}
+.col-sm a:hover{
+    color: cyan;
+}
+.col-sm .main{
+    display: flex;
+}
+.col-sm .main2{
+    display: flex;
+}
+.col-sm .twitter img{
+    height: 16px;
+    margin-top: 12px;
+}
+.col-sm .facebook img{
+    height: 22px;
+    margin-left: 1px;
+}
+
+.col-sm .LinkdIn img{
+    height: 22px;
+}
+
+.col-sm .instagram img{
+    height: 22px;
+    margin-left: 1px;
+}
+.col-sm .image1 img{
+    height: 17px;
+}
+.col-sm .image2 img{
+    height: 17px;
+}
+hr.modified-hr{
+    height: 3px; 
+    background-color: cadetblue; 
+    border: none;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* log in page */
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the login container */
+#login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #E6E6FA;
+    text-align: center;
+}
+
+/* Styling for the login form */
+#login-form {
+    text-align: left;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Styling for the login button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the signup link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* sign up page */
+
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the signup container */
+#signup-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #E6E6FA;
+    text-align: center;
+}
+
+/* Styling for the signup form */
+#signup-form {
+    text-align: left;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the signup button */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Styling for the login link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact us page */
+
+
+  
+  .contact-container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .message-container label {
+    vertical-align: top;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+/* Mobile page */
+
+  
+  .flip-card {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner,
+  .flip-card.active .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flip-card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  .heading6{
+    margin-left: 420px;
+    margin-top: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+  }
+  /* laptop page */
+
+  .floating-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .floating-card:hover {
+
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 4);
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-title {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .card-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  .card-title{
+    color: white;
+  }
+
+.heading7{
+    margin-left: 420px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+}
+/* Tablet page */
+
+.heading8{
+    margin-left: 380px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(101, 101, 194);
+    text-shadow: 2px 1px 2px black;
+}
+
+/* cart page */
+
+.cart-section1{
+    display: flex;
+    background-color: lightblue;
+    width: 650px;
+    padding-top: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 1px;
+    border-radius: 10px;
+    
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+.cart-section1 .text1{
+    margin-left: 10px;
+}
+.cart-section1 .text2{
+    margin-left: 20px;
+
+}
+.cart-section1 .delete-icon{
+    margin-left: 340px;
+}
+.cart-section1 .text3{
+    margin-left: 10px;
+}
+.cart-section2{
+    display: flex;
+    margin-top: 20px;
+    background-color: lightblue;
+    width: 650px;
+    height: 150px;
+    padding-top: 20px;
+    margin-left: 120px;
+    border: 1px;
+    border-radius: 10px;
+
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.cart-section2 .price1{
+    margin-top: 1px;
+    margin-left: 25px;
+    margin-bottom: -17px;
+    font-size: 20px;
+    color: red;
+}
+.cart-section2 .text1{
+    margin-left: 10px;
+    margin-top: 45px;
+}
+.cart-section2 .text2{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.cart-section2 .image1{
+    margin-left: 12px;
+    margin-top: 30px;
+}
+.price .price2{
+    margin-left: 25px;
+    margin-bottom: -5px;
+
+}
+.price .price3{
+    margin-left: 20px;
+    font-size: 11px;
+
+}
+.icons{
+    display: flex;
+    margin-left: 25px;
+    
+}
+.icons .delete-image-2{
+    margin-left: 10px;
+}
+.buttons{
+    display: flex;
+}
+.number{
+    margin: 10px;
+    
+}
+.buttons{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.buttons .button1 .quantity-btn{
+    background-color: grey;
+}
+.buttons .button2 .quantity-btn{
+    background-color: grey;
+}
+.main-section{
+    display: flex;
+}
+.main3{
+    background-color: lightblue;
+    width: 350px;
+    height: 230px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 4px;
+
+}
+.main3 .btn-2{
+    margin-left: 60px;
+}
+.hero-section{
+    display: flex;
+}
+.hero-section .text3{
+    margin-left: 160px;
+}
+.hero-section-2{
+    display: flex;
+    margin-top: 10px;
+}
+.hero-section-2 .text5{
+    margin-left: 242px;
+}
+.cart-section-3 .text1{
+    font-size: 20px;
+}
+.cart-section-3 .text2{
+    font-size: 14px;
+}
+.cart-section-3 .text4{
+    font-size: 14px;
+}
